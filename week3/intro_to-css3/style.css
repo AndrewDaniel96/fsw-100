@@ -1,0 +1,27 @@
+header {
+    text-align: center;
+}
+.mainHeadline{
+    color:darkgreen;
+}
+h1, h2 {
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+p {
+    line-height: 25px;
+}
+#link {
+    text-decoration: none;
+}
+#link:hover {
+    text-decoration: underline;
+}
+footer> p {
+    text-transform: uppercase;
+}
+img {
+    float: left;
+    margin: 5px 15px;
+    height: 225x;
+    width: 225px;
+}
