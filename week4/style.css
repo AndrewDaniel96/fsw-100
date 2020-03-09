@@ -1,0 +1,45 @@
+ *{
+     background-color: lightgrey;
+     font-family: 'Oswald', sans-serif;
+ }
+ h1, h2, h3, h4 {
+    border: 2px solid green;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    color: green;
+}
+img {
+    padding: 10px;
+    margin: 20px;
+    margin-left: 25%;
+    position: relative;
+}
+p {
+    color: green;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+    padding: 10px;
+    margin: 20px;
+}
+ol {
+    color:green;
+    padding: 10px;
+    margin: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+table {
+    border: 2 solid green;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 40%;
+    text-align: center;
+}
+
+
