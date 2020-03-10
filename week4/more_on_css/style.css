@@ -1,0 +1,91 @@
+
+*{
+    background-color:lightgray;
+}
+/*heading*/
+.mainHeader{
+    text-align:center;
+    color:blue;
+    margin-top: 70px;
+}
+/* sticky navbar */
+#navbar{
+    overflow: hidden;
+    background-color:blue;
+    position:fixed;
+    top:0;
+    width: 100%;
+    height: 40px
+}
+#navbar a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background: blue;
+    border: 1px solid black;
+    height:40px;
+    width: 50px
+}
+#navbar a:hover{
+    background-color: green;
+}
+/* blog posts*/
+#blog{
+    text-align: center;
+    margin-top: 20px;
+}
+.photo{
+    float: left;
+    padding: 15px 15px 15px 15px;
+    height: 150px;
+    width: 150px;
+}
+.wrap{
+    margin-top: 0px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    text-align: justify;
+}
+/*gridbox*/
+.shapes{
+    display: grid;
+    grid-template-columns: 2ft 2ft 2ft 2ft;
+    grid-template-rows: 180px 180px 180px 180px;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    width: 100%;
+}
+.lightPinkBox{
+    background-color: #F5c6D6;
+    grid-column: 1/5;
+}
+.hotPinkBox1{
+    background-color: #EE2E84;
+}
+.hotPinkBox2{
+    background-color: #EE2E84;
+}
+.hotPinkBox3{
+    background-color: #EE2E84;
+}
+.hotPinkBox4{
+    background-color: #EE2E84;
+}
+.blueBox1{
+    background-color: #85CFD8;
+    grid-column: 1/3;
+}
+.blueBox2{
+    background-color: #85CFD8;
+    grid-column: 3/5;
+}
+.greenBox{
+    background-color: #8DC63F;
+    grid-column: 1/4;
+}
+.orangeBox{
+    background-color: #E76E34;
+    
+}
