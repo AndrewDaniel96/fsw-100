@@ -1,0 +1,34 @@
+*{
+    background-color:lightgray;
+}
+/*Navbar*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color:grey;
+    border: 2px solid black;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+li a{
+    display: block;
+    color: black;
+    background-color: grey;
+    border:1px solid black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: maroon;
+}
+/*header*/
+header{
+    background-color: maroon;
+}
+h1{
+    margin-left: 25%;
+    background-color: maroon;
+}
